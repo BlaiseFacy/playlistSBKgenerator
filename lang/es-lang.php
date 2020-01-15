@@ -1,0 +1,51 @@
+<?php
+
+define("TXT_DONATE", "Donar");
+define("TXT_IMPORT", "importación");
+define("TXT_GENERATION", "Generación");
+define("TXT_EXPORT", "Exportación");
+define("TXT_CHOOSE_SALSA_FILE", "Elige una playlist salsa");
+define("TXT_CHOOSE_BACHATA_FILE", "Elige una playlist bachata");
+define("TXT_CHOOSE_KIZOMBA_FILE", "Elige una playlist kizomba");
+define("TXT_SPECIFY_PATH", "¿Especificar una ruta de leyendo para títulos de la playlist?");
+define("TXT_SALSA_PATH", "Camino de salsa");
+define("TXT_BACHATA_PATH", "Camino de bachata");
+define("TXT_KIZOMBA_PATH", "Camino de kizomba");
+define("TXT_FREE_INPUT", "Entrada libre");
+define("TXT_UNIX_FORMAT", "Formato Unix");
+define("TXT_MS_FORMAT", "Formato Microsoft");
+define("TXT_YES", "Sí");
+define("TXT_NO", "No");
+define("TXT_ENCODING", "Codificación");
+define("TXT_GENERATE_PLAYLIST", "Generar playlist SBK");
+define("TXT_PREFIX", "Prefijo");
+define("TXT_EXTENSION", "Extensión");
+define("TXT_HOW_MANY_PLAYLIST", "Cuantas playlists");
+define("TXT_PLAYLIST_MAX_SIZE", "Tamaño máximo playlist");
+define("TXT_UNLIMITED", "ilimitado");
+define("TXT_CYCLE", "ciclo");
+define("TXT_DOWNLOAD_FILE", "Descarga la playlist SBK");
+define("TXT_THE_PLAYLIST", "La playlist");
+define("TXT_OF", "de");
+define("TXT_TITLES", "títulos");
+define("TXT_TITLES_GENERATED", "títulos fue generada");
+define("TXT_IMPORTED", "importado");
+define("TXT_IS_EMPTY", "esta vacio");
+define("TXT_CANT_GENERATE", "No se puede generar la playlist");
+define("TXT_THE_LETTRE", "La letra");
+define("TXT_DONT_HAVE_ASSOC_NB", "no tiene un número asociado");
+define("TXT_NO_CONS_LETTRES", "No debe haber 2 letras consecutivas");
+define("TXT_FILE_TYPE", "Tipo de archivo");
+define("TXT_NOT_ALLOWED", "no autorizado");
+define("TXT_MUST_NOT_EXCEED", "El archivo no debe exceder");
+define("TXT_MEGA_BYTE", "MB");
+define("TXT_NO_EXTENSION", "El archivo no tiene extensión");
+define("TXT_FILE_DOWNLOADED", "archivo ha sido descargado");
+define("TXT_FILES_DOWNLOADED", "archivos han sido descargados");
+define("TXT_HELP_IMPORT", "Las playlists pueden incluir sólo títulos musicales o rutas + títulos. <br>No debe haber encabezados ni caracteres especiales que marquen el principio o el final de la playlist. <br>El formato m3u es perfecto.");
+define("TXT_HELP_GENERATION", "Puede marcar el tipo de playlist SBK cambiando las letras y los números del formulario. Puede crear playlists con 1, 2 o 3 alternancias. <br>Cada conjunto de un tipo de música está limitado a 9 pistas. <br>No puede combinar dos tipos de música idénticos en una fila.<br>Un ciclo es una secuencia musical completa en la que se reproducirá la playlist SBK. Por ejemplo, para el SBK233, el ciclo es 2 + 3 + 3 + 3 + 3 = 8.");
+define("TXT_HELP_GENERATION_PATH", "Si desea escuchar la playlist en otro dispositivo, sin duda tendrá que especificar una ruta de playlist diferente a la de las playlists importadas, en este caso haga clic en 'sí'. Si desea conservar la ruta de las playlists importadas o si sólo necesita los títulos para utilizarlos en un servicio de música en línea, haga clic en 'no'. <br>Las rutas corresponden al lugar donde se almacenarán los archivos de música cuando se reproduzca la playlist. Dependiendo del dispositivo o plataforma utilizado, la ubicación de los archivos y el formato serán diferentes. Puede especificar una ruta diferente para cada tipo de música. <br>Para ayudarle, elija el formato correspondiente al dispositivo en el que va a leer su playlist. <br>'Formato Unix' para smartphones Android, Apple, Unix, Linux. <br>'Formato Microsoft' para su uso en un entorno Windows. <br>El modo'Entrada libre' desactiva la ayuda de formato al introducir rutas.");
+define("TXT_HELP_EXPORT", "Puede exportar varias playlists del mismo tipo a la vez. Cada playlist será única porque la música se mezcla al azar con cada iteración. Las playlists se pueden reproducir en este o en cualquier otro dispositivo, dependiendo de las rutas de reproducción que haya establecido en las opciones de generación.");
+define("TXT_HELP_ENCODING", "Seleccione el tipo de codificación correspondiente a sus archivos. Si ve caracteres ilegibles en la playlist generada, cambie la opción de codificación o cambie la codificación de los archivos que importe. Se recomienda utilizar el formato UTF-8 que es más completo y versátil.");
+
+?>
