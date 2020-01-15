@@ -126,6 +126,10 @@
 				color: #FFF;
 				box-shadow: -1px -1px 3px rgba(0,0,0,0.1), 6px 6px 8px rgba(0,0,0,0.3);
 			}
+			.alert-info a:link, a:visited, a:hover, a:focus, a:active {
+				color: #FFF;
+				text-decoration: underline;
+			}
 			#enTete {
 				/*background-image: url(./img/fabric.png), linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);*/
 				/*padding: 20px 0px;*/
@@ -579,7 +583,6 @@
 					</div>
 					<a class="btn btn-dark" href="http://paypal.me/BlaiseFacy" role="button"><?php echo TXT_DONATE ?></a>
 				</div>
-				<hr class="mb-4">
 				<h4 class="mb-3"><?php echo TXT_IMPORT ?>
 					<button type="button" class="btn btn-info btn-circle" onClick="afficheAide('helpImport');">
 						<img src="./img/info.png" style="width:18px;height:auto;">
@@ -888,6 +891,10 @@
 					<button type="submit" class="btn btn-primary" id="submitGetPlaylist" onClick=""><?php echo TXT_DOWNLOAD_FILE ?></button>
 				</div>
 				<div class="alert alert-success" role="alert" id="infoDownloadPlaylist" style="visibility:hidden;margin-top:10px;"></div>
+				<hr class="mb-4">
+				<div class="row justify-content-center">
+					<a href="http://www.tunemymusic.com/?keeporder=true"><img src="./img/tunemymusic.png" style="width:auto;height:auto;"></a>
+				</div>
 				<hr class="mb-4">
 				<h5>
 					<div class="custom-file text-center">
